@@ -50,7 +50,7 @@ Refer to `./pth` for the validation and use of re-parameterization.
 
 `conv1x1_3x3.py`, `conv1x1.py` and `shortcut.py` respectively **verify** the three re-parameterization methods.
 
-`del_params_ema.py` simplifies the `.pth` file. (Delete additional saved parameters when using EMA.)
+`del_params_ema.py` simplifies the `.pth` file. (Remove the additional parameters retained when using EMA.)
 
 `print_pth.py` prints the content of the `.pth` file.
 
