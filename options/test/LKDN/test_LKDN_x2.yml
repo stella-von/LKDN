@@ -73,11 +73,11 @@ val:
   metrics:
     psnr: # metric name, can be arbitrary
       type: calculate_psnr
-      crop_border: 4
+      crop_border: 2
       test_y_channel: true
       better: higher  # the higher, the better. Default: higher
     ssim:
       type: calculate_ssim
-      crop_border: 4
+      crop_border: 2
       test_y_channel: true
       better: higher
