@@ -1,10 +1,12 @@
 import torch
-from archs.lkdn_arch import LKDN as net
-# from archs.lkdns_arch import LKDN_S as net
 from thop import profile
+
+from basicsr.archs.lkdn_arch import LKDN as net
+
+# from basicsr.archs.lkdns_arch import LKDN_S as net
+
 # pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 
-# 将@ARCH_REGISTRY.register()注释
 model = net()
 
 net_cls_str = f'{model.__class__.__name__}'
